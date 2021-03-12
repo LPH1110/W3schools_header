@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header Intro */
+#head-intro {
+    display: flex;
+    justify-content: space-between;
+    height: 68px;
+    padding: 20px 16px 0.15px;
+}
+
+#head-intro #web-domain, #head-intro #right-intro {
+    display: flex;
+}
+
+#head-intro #web-domain a {
+    color: #555555;
+    font-size: 36px;
+    line-height: 47.86px;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 3px;
+}
+
+#head-intro #web-domain h1 {
+    line-height: 47.86px;
+    color: #4CAF50;
+}
+
+#head-intro #web-domain a:hover {
+    color: #4CAF50;
+}
+
+#head-intro #right-intro h2 {
+    line-height: 47.86px;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+#right-intro #login-btn {
+    height: 33px;
+    width: 85px;
+    font-size: 18px;
+    bottom: 0;
+    margin: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-weight: bold;
+}
+
+#right-intro #login-btn:hover {
+    background-color: green;
+}
+
+#head-intro #right-intro {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* Head Navigations */
+#head-nav, #head-nav .left-nav-container, #head-nav .right-nav-container  {
+    display: flex;
+}
+
+#head-nav {
+    justify-content: space-between;
+    height: 44px;
+    background-color: #555555;
+}
+
+#head-nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#head-nav i, #head-nav a {
+    line-height: 43px;
+    padding: 0 15px;
+}
+
+#head-nav li:hover, #head-nav #home-btn:hover, #head-nav #toggle-dark-btn:hover, #head-nav #translate-btn:hover, #head-nav #search-btn:hover {
+    background-color: rgb(31, 29, 29);
+    cursor: pointer;
+}
+
+.left-nav-container i, .right-nav-container i, #head-nav a {
+    color: white;
+}
+
+#head-nav #nav-links li {
+    display: inline-block;
+}
+
+#head-nav .left-nav-container li:last-child a, #head-nav .right-nav-container li:first-child a {
+    padding-right: 5px;
+}
+
+#head-nav .left-nav-container li:last-child i, #head-nav .right-nav-container li:first-child i {
+    padding: 0 5px;
+}
+
+
+
+
+    
